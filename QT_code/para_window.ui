@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>para_window</class>
+ <widget class="QWidget" name="para_window">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>498</width>
+    <height>245</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <layout class="QGridLayout" name="gridLayout">
+   <item row="0" column="2" colspan="2">
+    <widget class="QLineEdit" name="parameter1"/>
+   </item>
+   <item row="1" column="0" colspan="2">
+    <widget class="QLineEdit" name="parameter2"/>
+   </item>
+   <item row="1" column="2" colspan="2">
+    <widget class="QLineEdit" name="parameter3"/>
+   </item>
+   <item row="1" column="4" colspan="2">
+    <widget class="QLineEdit" name="parameter4"/>
+   </item>
+   <item row="2" column="0" colspan="2">
+    <widget class="QLineEdit" name="parameter5"/>
+   </item>
+   <item row="2" column="2" colspan="2">
+    <widget class="QLineEdit" name="parameter6"/>
+   </item>
+   <item row="2" column="4" colspan="2">
+    <widget class="QLineEdit" name="parameter7"/>
+   </item>
+   <item row="3" column="0" colspan="2">
+    <widget class="QLineEdit" name="parameter8"/>
+   </item>
+   <item row="3" column="2" colspan="2">
+    <widget class="QLineEdit" name="parameter9"/>
+   </item>
+   <item row="3" column="4" colspan="2">
+    <widget class="QLineEdit" name="parameter10"/>
+   </item>
+   <item row="4" column="0" colspan="2">
+    <widget class="QLineEdit" name="parameter11"/>
+   </item>
+   <item row="4" column="2" colspan="2">
+    <widget class="QLineEdit" name="parameter12"/>
+   </item>
+   <item row="4" column="4" colspan="2">
+    <widget class="QLineEdit" name="parameter13"/>
+   </item>
+   <item row="5" column="0">
+    <widget class="QPushButton" name="J1Button">
+     <property name="text">
+      <string>Joint1</string>
+     </property>
+    </widget>
+   </item>
+   <item row="5" column="1">
+    <widget class="QPushButton" name="J2Button">
+     <property name="text">
+      <string>Joint2</string>
+     </property>
+    </widget>
+   </item>
+   <item row="5" column="2">
+    <widget class="QPushButton" name="J3Button">
+     <property name="text">
+      <string>Joint3</string>
+     </property>
+    </widget>
+   </item>
+   <item row="5" column="3">
+    <widget class="QPushButton" name="J4Button">
+     <property name="text">
+      <string>Joint4</string>
+     </property>
+    </widget>
+   </item>
+   <item row="5" column="4">
+    <widget class="QPushButton" name="J5Button">
+     <property name="text">
+      <string>Joint5</string>
+     </property>
+    </widget>
+   </item>
+   <item row="5" column="5">
+    <widget class="QPushButton" name="J6Button">
+     <property name="text">
+      <string>Joint6</string>
+     </property>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

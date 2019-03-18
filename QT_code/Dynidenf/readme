@@ -1,0 +1,17 @@
+Linear form of robotic dynamics:
+
+tau = K(theta,theta_dot,theta_ddot) * phi;
+where tau is torques, phi is dynamic parameters to be identified, K is the matrix with respect to joint angles, angular velocities and accelerations.
+
+There are three important functions:
+
+1) fk.c
+It calculates the K matrix according to theta, theta_dot and theta_ddot (i.e. angle, angular velocity and acceleration of joints).
+
+2) idf_SVD_priori.c
+It solves the above linear equation by Singular Value Decomposition method (SVD) to find the best dynamic parameters, i.e. phi.
+
+3) Errestim.c
+It predicts the torques according to the solved phi and measured K, then compares them with the measured torques to obtain the err between them.
+
+The main.c file is a test example.
